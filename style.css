@@ -228,15 +228,20 @@ body{
 .users-list a .details p{
   color: #67676a;
 }
-.users-list a .status-dot{
+.users-list a .content {
   font-size: 12px;
   color: #468669;
   padding-left: 10px;
 }
-.users-list a .status-dot.offline{
+.users-list a .content.offline {
   color: #ccc;
 }
-
+.content i{
+      position: relative;
+      z-index: 0;
+      left: -9px;
+      top: 12px;
+}
 /* Chat Area CSS Start */
 .chat-area header{
   display: flex;
